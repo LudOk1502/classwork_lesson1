@@ -1,4 +1,4 @@
-export default function Geo({lat, lng}) {
+export default function Geo({geo: {lat, lng}}) {
     return (
         <div className={'geo'}>
             geo:

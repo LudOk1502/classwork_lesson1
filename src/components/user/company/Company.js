@@ -1,4 +1,4 @@
-export default function Company({name, catchPhrase, bs}) {
+export default function Company({company: {name, catchPhrase, bs}}) {
     return (
         <div className={'company'}>
             company:
